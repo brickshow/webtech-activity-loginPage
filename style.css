@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+
+body{
+    background: #020410;
+}
+
+.form-searchbar button img{
+    width: 20px;
+    height: 20px;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    z-index: 100;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.form-searchbar{
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    display: inline;
+    display: flex;
+    align-items: center;
+}
+
+.form-searchbar input{
+     width: 100%;
+     background: transparent;
+     border: none;
+     outline: none;
+     color: #000000;
+}
+
+.form-searchbar input::placeholder{
+    color: #fff;
+}
+
+.form-searchbar button{
+    width: 30px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background: url(Bg.jpg) no-repeat;
+    backdrop-filter: blur(20px);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.blur-background{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:  70%;
+    height: 550px;
+    background: url('Bg.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    box-shadow: 3px 10px 10px rgba(192, 148, 5, 0.205);
+}
+
+.container .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 58%;
+    height: 100%;
+    background: transparent;
+    color: #fff;
+}
+
+
+
+.container .content h2{
+    font-size: 30px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    font-weight: 500px;
+    margin: 30px;
+}
+
+.content .welcome-text p{
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 30pxpx;
+    font-weight: 500;
+}
+
+.container .content .logo-title{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.container .content .logo-title img{
+    width: 100px;
+}
+
+.container .content .logo-title{
+    display: flex;
+}
+
+.container .content .welcome-text h2{
+    margin-top: 60px;
+}
+
+.container .login-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 42%;
+    height: 100%;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius:30px;
+}
+
+.login-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login-box h1{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 1000px;
+    text-align: center;
+    color: #fff;
+}
+
+.login-box .input-data{
+    border: #000000;
+    width: 90%;
+    height: 50px;
+    border-top: 2px solid #979797;
+    border-bottom: 2px solid #fff;
+    border-radius: 25px;
+    background: transparent;
+    margin: 10px;
+    justify-content: space-between;
+    display: flex;
+    box-shadow: 3px 10px 10px rgb(0, 0, 0);
+}
+
+.login-box .input-data input{
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.login-box .input-data input::placeholder{
+    color: #fff;
+}
+
+.login-box .input-data img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 7px;
+    right: 8px;
+}
+
+.forgot-remem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.forgot-remem label{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 100px;
+}
+
+.forgot-remem a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.login-button{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    border-radius: 25%;
+    margin: 40px;
+}
+
+.login-button button{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    box-shadow: 3px 10px 10px rgb(29, 28, 28);
+}
+
+.login-button button:hover {
+    background-color: #7a7a7a;
+}
+
+.login-box .create-account{
+    color: #ffff;
+}
+
+.login-box .create-account a{
+    color: #ffff;
+}
